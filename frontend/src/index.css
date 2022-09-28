@@ -7,6 +7,7 @@
   --wp--preset--color--black: #2F2F2F;
   --wp--preset--mainlight--vivid-red: #DC3545;
   --wp--preset--gradient--secondary-button: linear-gradient(90deg, #E87511 0%, #FFB04D 100%);
+  --wp-preset--gray: #9B9B9B;
 
 }
 
@@ -23,9 +24,29 @@ html {
   color: var(--wp--preset--color--black);
 }
 
+::-moz-selection {
+  color: var(--wp--preset--bg--white);
+  background: var(--wp--preset--mainlight--vivid-red);
+}
+
+::selection {
+  color: var(--wp--preset--bg--white);
+  background: var(--wp--preset--mainlight--vivid-red);
+}
+
 a,
 a:hover,
 a:visited {
   color: unset;
   text-decoration: none;
+}
+
+.searchBar {
+  padding: 8.7rem 10px;
+}
+
+.content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 }

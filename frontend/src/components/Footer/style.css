@@ -1,0 +1,16 @@
+footer {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unit-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unit-logo-container img {
+  width: 6rem;
+}
