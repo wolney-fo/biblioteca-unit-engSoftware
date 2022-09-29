@@ -7,7 +7,7 @@
     height: 4.3rem;
 }
 
-.searchTerm {
+#search {
     background: transparent;
 
     border: none;

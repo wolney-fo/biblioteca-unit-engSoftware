@@ -1,13 +1,17 @@
 .supportButton {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
     display: flex;
-    align-items: center;
     justify-content: center;
+
+    width: 45px;
+    height: 45px;
 }
 
 .button {
     background: linear-gradient(90deg, #E87511 0%, #FFB04D 100%);
-    color: var(--wp--preset--bg--white);
-    border-radius: 10px;
-    padding: 10px 35px;
-    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
 }
